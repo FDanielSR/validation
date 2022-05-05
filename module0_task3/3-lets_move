@@ -1,2 +1,4 @@
-mv [A-Z]* /tmp/u
+for file in $(ls | grep [A-Z]); do
+  mv $file /tmp/u/$file
+done
 
