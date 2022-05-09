@@ -1,4 +1,8 @@
 #! /bin/bash
 
+<<<<<<< HEAD
 env | grep ^TERM
 
+=======
+grep ^TERM
+>>>>>>> 2778243ef87171568f0f952839b0d8e93a68c2cb
