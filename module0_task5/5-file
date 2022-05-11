@@ -1,3 +1,6 @@
-touch "\*\\\'\"DevOps\"\\'\\*$\?\*\*\*\*\*:)"
-echo Hello DevOps > '\*\\'\''"DevOps"\'\''\*$\?\*\*\*\*\*:)'
-cat '\*\\'\''"DevOps"\'\''\*$\?\*\*\*\*\*:)'
+#! /bin/bash
+
+export NAME="\*\\\'\"DevOps\"\\'\\*$\?\*\*\*\*\*:)"
+touch $NAME
+echo "Hello DevOps" > "\*\\\'\"DevOps\"\\'\\*$\?\*\*\*\*\*:)"
+
