@@ -1,5 +1,7 @@
 #! /bin/bash
 
-export NAME="\*\\'\"DevOps\"\'\\*$\?\*\*\*\*\*:)"
+export NAME="\*\\\'\"DevOps\"\\'\\\*$\?\*\*\*\*\*:)"
 touch $NAME | echo "Hello DevOps" > $NAME
+echo $NAME
+cat $NAME
 
