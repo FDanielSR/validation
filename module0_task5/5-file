@@ -1,0 +1,5 @@
+#! /bin/bash
+
+export NAME="\*\\\'\"DevOps\"\\'\\\*$\?\*\*\*\*\*:)"
+touch $NAME | echo "Hello DevOps" > $NAME
+
