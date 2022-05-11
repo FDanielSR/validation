@@ -3,3 +3,4 @@
 export NAME="\*\\'\"DevOps\"\'\\*$\?\*\*\*\*\*:)"
 touch $NAME
 echo "Hello DevOps" > "\*\\'\"DevOps\"\'\\*$\?\*\*\*\*\*:)"
+
